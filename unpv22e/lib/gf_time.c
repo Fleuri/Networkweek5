@@ -1,6 +1,5 @@
 #include	"unpipc.h"
 #include	<time.h>
-#include	<sys/time.h>
 
 char *
 gf_time(void)

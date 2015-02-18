@@ -1,6 +1,4 @@
 #include	"unpipc.h"
-#include	<fcntl.h>
-#include	<sys/errno.h>
 
 int
 set_nonblock(int fd)

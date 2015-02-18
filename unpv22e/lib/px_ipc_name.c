@@ -1,8 +1,5 @@
 /* include px_ipc_name */
 #include	"unpipc.h"
-#include	<stdlib.h>
-#include	<sys/types.h>
-#include	<linux/limits.h>
 
 char *
 px_ipc_name(const char *name)

@@ -1,8 +1,5 @@
 /* include my_shm */
 #include	"unpipc.h"
-#include	<sys/types.h>
-#include	<sys/mman.h>
-#include	<stdlib.h>
 
 void *
 my_shm(size_t nbytes)

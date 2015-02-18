@@ -1,7 +1,6 @@
 /* include readable_timeo */
 #include	"unpipc.h"
-#include	<sys/time.h>
-#include	<stdlib.h>
+
 int
 readable_timeo(int fd, int sec)
 {

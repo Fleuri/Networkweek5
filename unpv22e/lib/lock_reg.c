@@ -1,7 +1,5 @@
 /* include lock_reg */
 #include	"unpipc.h"
-#include	<sys/types.h>
-#include	<fcntl.h>
 
 int
 lock_reg(int fd, int cmd, int type, off_t offset, int whence, off_t len)

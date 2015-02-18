@@ -1,11 +1,5 @@
 /* include readline */
 #include	"unpipc.h"
-#include	<sys/types.h>
-#include	<stdlib.h>
-#include	<stdio.h>
-#include	<sys/errno.h>
-#include	<linux/limits.h>
-#define	MAXLINE 1024
 
 static ssize_t
 my_read(int fd, char *ptr)

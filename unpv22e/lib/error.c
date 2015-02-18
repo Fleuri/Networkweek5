@@ -1,9 +1,7 @@
 #include	"unpipc.h"
-#include	<stdio.h>
+
 #include	<stdarg.h>		/* ANSI C header file */
-#include	<errno.h>
 #include	<syslog.h>		/* for syslog() */
-#define     MAXLINE 1024
 
 int		daemon_proc;		/* set nonzero by daemon_init() */
 

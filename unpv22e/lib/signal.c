@@ -1,11 +1,8 @@
 /* include signal */
 #include	"unpipc.h"
-#include	<signal.h>
-#include	<stdio.h>
-#include	<unistd.h>
-#include	<sys/types.h>
 
-Sigfunc* signal(int signo, Sigfunc *func)
+Sigfunc *
+signal(int signo, Sigfunc *func)
 {
 	struct sigaction	act, oact;
 

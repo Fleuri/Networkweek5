@@ -1,7 +1,6 @@
 /* include readn */
 #include	"unpipc.h"
-#include	<sys/types.h>
-#include	<sys/errno.h>
+
 ssize_t						/* Read "n" bytes from a descriptor. */
 readn(int fd, void *vptr, size_t n)
 {
